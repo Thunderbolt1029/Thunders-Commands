@@ -1,0 +1,1 @@
+tellraw @s [{"text": "[Trading Hub] "},{"text": "You don't have enough items","color": "green"}]

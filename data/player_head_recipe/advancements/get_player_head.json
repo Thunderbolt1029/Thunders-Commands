@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "player_head_recipe:thunder_player_head"
+            }
+        }
+    },
+    "rewards": {
+        "function": "player_head_recipe:reset"
+    }
+}

@@ -1,0 +1,1 @@
+execute as @a if predicate hub_token:activate_hub_token run function hub_token:trigger/teleport

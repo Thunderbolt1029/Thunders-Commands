@@ -1,0 +1,4 @@
+clear @s knowledge_book
+give @p iron_sword{AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0.05,Slot:mainhand,Name:"generic.movement_speed",UUID:[I;-122215,52930,175821,-105860]},{AttributeName:"generic.attack_speed",Amount:2,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-122215,53030,175821,-106060]}],display:{Name:'[{"text":"Speed Dagger","italic":false}]',Lore:['[{"text":"Increases Attack and Movement Speed","italic":false}]','[{"text":"while in main hand","italic":false}]']},HideFlags:2, SpeedDagger:1b} 1
+recipe take @s speed:speed_dagger
+advancement revoke @s only speed:speed_dagger

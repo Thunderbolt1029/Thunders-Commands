@@ -1,0 +1,1 @@
+kill @e[nbt={Item:{tag:{hub_token:True}}}]

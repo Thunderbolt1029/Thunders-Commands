@@ -1,0 +1,3 @@
+scoreboard players set hub_token thunderscommands.settings 1
+playsound minecraft:block.note_block.hat master @s ~ ~ ~ 0.1 2
+function root:settings

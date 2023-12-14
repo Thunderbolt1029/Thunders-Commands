@@ -1,0 +1,1 @@
+execute as @a[tag=want_hub_token, tag=can_hub, nbt=!{Inventory:[{Slot:8b, tag:{hub_token:True}}]}] run item replace entity @s hotbar.8 with minecraft:ender_pearl{hub_token:True, display:{Name:'{"text":"Hub Token","color":"#8929b4"}'}}
